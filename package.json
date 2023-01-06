@@ -1,0 +1,9 @@
+{
+  "name": "osnap-test",
+  "scripts": {
+    "osnap:live": "osnap --config=osnap.live.config.yaml"
+  },
+  "devDependencies": {
+    "@space-labs/osnap": "^1.5.0"
+  }
+}

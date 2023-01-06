@@ -1,0 +1,26 @@
+---
+baseUrl: https://www.google.de/
+fullScreen: true
+threshold: 3
+parallelism: 10
+testPattern: "./visual-regression-tests/**/*.osnap.yaml"
+snapshotDirectory: "./snapshots/live/"
+defaultSizes:
+    -   name: xxl
+        width: 1600
+        height: 900
+    -   name: xl
+        width: 1366
+        height: 768
+    -   name: md
+        width: 1024
+        height: 576
+    -   name: sm
+        width: 768
+        height: 432
+    -   name: xs
+        width: 640
+        height: 360
+    -   name: xxs
+        width: 320
+        height: 180
